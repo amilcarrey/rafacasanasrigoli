@@ -28,6 +28,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    //https://composition-api.nuxtjs.org/getting-started/setup
+    '@nuxtjs/composition-api'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
