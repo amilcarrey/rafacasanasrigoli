@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-700">
-    <div class="py-24 mx-auto">
+    <div class="mx-auto">
       <div class="flex flex-wrap">
         <ImageView
           v-for="c in count"

@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="bg-gray-900">
+    <Title />
     <ListImage />
   </div>
 </template>
