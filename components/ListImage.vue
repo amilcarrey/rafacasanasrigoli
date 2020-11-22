@@ -1,15 +1,15 @@
 <template>
   <section class="text-gray-700">
     <div class="mx-auto">
-      <div class="flex flex-wrap">
+      <NuxtLink to="/Project" class="flex flex-wrap">
         <ImageView
           v-for="c in count"
           :key="c"
-          :title="title"
+          :title="c"
           :subtitle="subtitle"
           :url="url"
         ></ImageView>
-      </div>
+      </NuxtLink>
     </div>
   </section>
 </template>
