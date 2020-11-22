@@ -2,7 +2,13 @@
   <section class="text-gray-700">
     <div class="py-24 mx-auto">
       <div class="flex flex-wrap">
-        <ImageView v-for="c in count" :key="c" :id="c"></ImageView>
+        <ImageView
+          v-for="c in count"
+          :key="c"
+          :title="title"
+          :subtitle="subtitle"
+          :url="url"
+        ></ImageView>
       </div>
     </div>
   </section>
@@ -12,7 +18,12 @@
 export default {
   setup() {
     const count = 6
-    return { count }
+    const title = 'Shooting Stars'
+    const subtitle =
+      'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.'
+    const url =
+      'https://images.pexels.com/photos/5552608/pexels-photo-5552608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=450'
+    return { count, title, subtitle, url }
   },
 }
 </script>
