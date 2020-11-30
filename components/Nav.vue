@@ -3,12 +3,12 @@
     <div
       class="container flex md:flex-row flex-col md:justify-between justify-around items-center"
     >
-      <div class="">Logo</div>
+      <div class=""><nuxt-link to="/">Logo</nuxt-link></div>
       <nav class="flex justify-between">
         <nuxt-link to="" class="">
           <span class="border-solid border-b-2 border-white"> work </span>
         </nuxt-link>
-        <nuxt-link to="" class="pl-24">
+        <nuxt-link to="About" class="pl-24">
           <span class="border-solid border-b-2 border-white">about </span>
         </nuxt-link>
       </nav>
