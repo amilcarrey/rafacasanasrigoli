@@ -30,8 +30,6 @@ export default {
     '@nuxtjs/tailwindcss',
     //https://composition-api.nuxtjs.org/getting-started/setup
     '@nuxtjs/composition-api',
-    //https://image.nuxtjs.org/setup
-    '@nuxt/image'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
