@@ -1,7 +1,11 @@
 <template>
-  <footer class="bg-black pb-8 pt-20 text-white">
+  <footer class="bg-black py-8 text-white">
     <div
-      class="container flex md:flex-row flex-col md:justify-between justify-around items-center"
+      class="border-solid border-b-2 mx-20 border-white border-opacity-40"
+      aria-label="divider"
+    ></div>
+    <div
+      class="container pt-8 flex md:flex-row flex-col md:justify-between justify-around items-center"
     >
       <span class="text-xs"
         >© 2020 Made by Rafael Casañas and
