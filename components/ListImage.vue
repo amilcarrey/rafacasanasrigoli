@@ -5,7 +5,7 @@
         <ImageView
           v-for="c in count"
           :key="c"
-          :title="c"
+          :title="c.toString()"
           :subtitle="subtitle"
           :url="url"
         ></ImageView>
