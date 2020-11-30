@@ -1,11 +1,15 @@
 <template>
-  <div></div>
+  <section>
+    <Title :title="pageName" />
+    <Me />
+  </section>
 </template>
 
 <script>
 export default {
   setup() {
-    return {}
+    const pageName = 'about'
+    return { pageName }
   },
 }
 </script>
